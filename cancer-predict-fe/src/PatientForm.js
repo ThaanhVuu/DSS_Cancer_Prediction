@@ -139,7 +139,7 @@ export default function PatientForm() {
             <div className="container" style={{maxWidth: "800px"}}>
                 <div className="card shadow-sm border-0 rounded-4">
                     <div className="card-body p-4 p-md-5">
-                        <h3 className="text-center fw-bold mb-4">🧬 Cancer Risk DSS</h3>
+                        <h3 className="text-center fw-bold mb-4">🧬 DSS dự đoán nguy cơ ung thư </h3>
 
                         {/* FORM */}
                         <form onSubmit={handleSubmit} className="row g-4">
