@@ -491,7 +491,7 @@ export default function PatientForm() {
 
         <div className="card shadow-sm border-0 rounded-4">
           <div className="card-body p-4 p-md-5">
-            <h3 className="text-center fw-bold mb-4">🧬 Cancer Risk DSS</h3>
+            <h3 className="text-center fw-bold mb-4">🧬 DSS Dự đoán nguy cơ ung thư</h3>
 
             {/* FORM */}
             <form onSubmit={handleSubmit} className="row g-4" noValidate>
@@ -576,8 +576,8 @@ export default function PatientForm() {
                 <select id="genRisk" name="GeneticRisk" value={form.GeneticRisk} onChange={handleChange}
                         className="form-select rounded-3">
                   <option value="0">Họ hàng không có tiền sử ung thư</option>
-                  <option value="1">Họ hàng xa có tiền sử ung thư</option>
-                  <option value="2">Họ hàng gần có tiền sử ung thư</option>
+                  <option value="1">Họ hàng có tiền sử ung thư</option>
+                  <option value="2">Gia đình có tiền sử ung thư</option>
                 </select>
               </div>
 
